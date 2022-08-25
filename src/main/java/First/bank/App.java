@@ -49,7 +49,7 @@ public class App
       	                   op=sc.nextInt();
       	                    switch(op) {
       	                    //DEPOSIT METHOD
-      	                    case 1->
+      	                    case 1:
       	                    {
       	                    	out.println("Enter password to deposit");
       	                    	String pwd=sc.next();
@@ -69,7 +69,7 @@ public class App
       	                    	
       	                    }
       	                    //WITHDRAW METHOD
-      	                    case 2->
+      	                    case 2 :
       	                    
       	                    {
       	                    	out.println("Enter password to withdraw");
@@ -86,7 +86,7 @@ public class App
   	                    			out.println(e.getMessage());
   	                    		}
       	                    }
-      	                    	default->System.exit(0);
+      	                    	default :System.exit(0);
       	                    
       	                    }
       	                    }
